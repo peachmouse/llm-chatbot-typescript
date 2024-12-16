@@ -1,5 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 
+{
+  /*The hooks/ folder contains the React hook that holds the chatbot’s state and enables the chat 
+  // interface. When the form is submitted, the application state is updated to show the loadin indicator 
+  // and send an HTTP POST request to the /api/chat/ endpoint, where it will generate a response. When a 
+  // response is received, the message is stored in the state and appended to the chat interface.
+*/
+}
 export type Message = {
   role: "human" | "ai";
   content: string;
